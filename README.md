@@ -51,6 +51,50 @@ In order to perform calculations and visualizations thereafter we first prepare 
   - Comparing the production budget to ROI enables us to cater for movies like "Deep throat" that had significantly lower production     budgets and did not make alot of profit compared to movies like Avatar but made very high ROI because of the low productuction budget.
     ![ROI_vs_worldwidegross](./images/ROI_vs_worldwidegross.png)
       
-  ## 🎬 Comparing the ratings to runtime
-  How movie ratings relate to other variables like runtime or studio
-  
+  ## 🎬 Comparing the ratings to runtime using Rotten tomatoes data
+  We cleaned and merged the `rt_reviews` and `rt_movie_info` datasets using movie `id`. This allowed us to explore relationships between movie ratings, runtime, and publisher reviews. These plots help to identify patterns in critical reviews based on runtime or reviewing source 
+  We construct the following visualizations:
+
+  - **Scatter Plot** Shows the distributon of runtime against the rating.
+    ![Runtime_vs_rating](./images/Runtime_vs_rating.png)
+  - **Bar Plot**  Shows the average Runtime by Rating.
+    ![averageruntime_vs_rating](./images/averageruntime_vs_rating.png)
+    
+  - **Boxplot** Shows Ratings by Publisher
+    ![Publisher_vs_rating](./images/Publisher_vs_rating.png)
+
+    ### Key Findings:
+- **Scatter Plot:** Showed that most movies fall within a typical runtime range (80–120 minutes), and their ratings vary with some outliers.
+- **Bar Plot of Avg. Runtime by Rating:** Indicates that higher-rated films tend to be slightly longer on average.
+- **Boxplot of Ratings by Publisher:** Shows potential bias across different review publishers.
+
+  ## 4.Statistical analysis.
+To confirm our insights we conduct statisctical analysis to confirm whether our conclusions are valid.These incluse:
+
+**linear regression**  and **Z test**
+In this section we use different statistical packages in python namely "sklearn", "scipy" and "statsmodels"
+
+![domesticgross_vs_domestic_gross](./images/domesticgross_vs_domestic_gross.png)
+
+### Conclusion
+This shows that there's a **positive correlation**.
+Positive Correlation:
+The regression line typically slopes upward, indicating a positive relationship — as domestic gross increases, worldwide gross tends to increase too.
+
+Fit of the Line (Rough Visual R²):
+If most of the data points hug the regression line closely, the relationship is strong, and domestic gross is a good predictor of worldwide gross.
+If the points are widely scattered, the relationship is weaker, and other factors (like international appeal, genre, or marketing) also play a big role.
+
+**Outliers**:
+You can see some movies far above the line, it means those films performed much better internationally than locally.
+If a few are below the line, those movies underperformed internationally compared to their domestic performance.
+
+### Genre against rating analysis (SQL)
+In this part we use the im.db data whish is in SQL format to compare the movie ratings with the genre of the movie.
+Since we had loaded the datast before we get into it to view the tables. Here we join tables, compare and provide visualizations.
+- Genres vs rating to check for genres that typically have higher ratings than others
+![genres_vs_rating](./images/genres_vs_rating.png)
+
+- Average runtime vs rating to see if the movie rating is affected by its runtime
+![averageruntime_vs_rating](./images/averageruntime_vs_rating.png)
+
