@@ -68,7 +68,7 @@ In order to perform calculations and visualizations thereafter we first prepare 
 - **Bar Plot of Avg. Runtime by Rating:** Indicates that higher-rated films tend to be slightly longer on average.
 - **Boxplot of Ratings by Publisher:** Shows potential bias across different review publishers.
 
-  ## 4.Statistical analysis.
+# 4. Statistical analysis.
 To confirm our insights we conduct statisctical analysis to confirm whether our conclusions are valid.These incluse:
 
 **linear regression**  and **Z test**
@@ -98,7 +98,7 @@ Since we had loaded the datast before we get into it to view the tables. Here we
 - Average runtime vs rating to see if the movie rating is affected by its runtime
 ![averageruntime_vs_rating](./images/averageruntime_vs_rating.png)
 
-## 5. Final Insights & Recommendations
+# 5. Final Insights & Recommendations
 
 ### Key Takeaways:
 - **Financial Data:** Comparing budget with worldwide gross can be viewed usng either 'Profit' or 'ROI'.
