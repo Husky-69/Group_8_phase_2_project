@@ -58,7 +58,7 @@ In order to perform calculations and visualizations thereafter we first prepare 
   - **Scatter Plot** Shows the distributon of runtime against the rating.
     ![Runtime_vs_rating](./images/Runtime_vs_rating.png)
   - **Bar Plot**  Shows the average Runtime by Rating.
-    ![averageruntime_vs_rating](./images/averageruntime_vs_rating.png)
+    ![runtimeaverage_vs_rating](./images/runtimeaverage_vs_rating.png)
     
   - **Boxplot** Shows Ratings by Publisher
     ![Publisher_vs_rating](./images/Publisher_vs_rating.png)
@@ -98,3 +98,19 @@ Since we had loaded the datast before we get into it to view the tables. Here we
 - Average runtime vs rating to see if the movie rating is affected by its runtime
 ![averageruntime_vs_rating](./images/averageruntime_vs_rating.png)
 
+## 5. Final Insights & Recommendations
+
+### Key Takeaways:
+- **Financial Data:** Comparing budget with worldwide gross can be viewed usng either 'Profit' or 'ROI'.
+- **Ratings Data:** No clear-cut relationship between runtime and rating, but publishers show different scoring behaviors.
+- **Visualizations:** Scatter and regression plots confirmed positive correlations between budget and gross revenue, more specifically domestically and worldwide.
+- **Merged Dataset Value:** Combining attributes of (TMDb, RT) with financials (The Numbers) enriched analysis.
+
+### Recommendations:
+1. 🎯 When assessing a movie's success, consider both domestic and international performance.
+2. ✅ Focus on movies with higher ROIs as this indicates that less money is spent on production budget and profits are maximized.
+3. 🔍 Consider reviewer source when analyzing ratings — some publishers are more generous than others since opinions are undisputed and depend on a publishers's point of view.
+
+# 6. Limitations
+1. Combining attributes from differnt datasets leads to the loss of some several rows of data that could have had an impact on the study.
+2. Some financial data on the worlwide and domestic gross may be skewed due to copyright infringment and pirating.
