@@ -1,4 +1,4 @@
-# Group_8_phase_2_project
+# Movie Data Analysis for Sinemas Investment Insights
 
 ##   Requirements
 
