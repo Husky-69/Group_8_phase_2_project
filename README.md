@@ -33,6 +33,16 @@ First we import the relevant python libraries and loading the datasets.
 - `rt_movie_info`: Additional Rotten Tomatoes metadata
 
 We explore each dataset using the imported libraries to get a glimpse of the columns present in each dataset as the shapes of the DataFrames present using methods such as; `.head()`, `.info()`, and `.tail()`.This gives us a brief understanding of what each dataset entails.
+
+### ⚙️ Project Setup ###
+Before running any SQL queries or loading the database for analysis, follow these steps:
+
+Unzip the im.db.zip file located in the project directory.
+
+This will extract the im.db SQLite database file required for the SQL analysis section.
+
+Ensure your environment can access and query this file (e.g., using SQLite, Python's sqlite3, or DB Browser).
+
 # 2. Data cleaning 
 In order to perform calculations and visualizations thereafter we first prepare our raw data. We remove missing values. We drop irrelevant columns and merge some datasets with common columns to get a comprehensive view. This is the data cleaning process outlined in the following cells.
   - Cleaning Financial Figures - normalizing the data by removing currency symbols and commas, hence changing the data type to float for easier mathematical calculations.
