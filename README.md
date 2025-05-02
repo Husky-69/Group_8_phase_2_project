@@ -23,6 +23,22 @@ The main objectives for the study are:
 
 4.**Investigate the runtime vs movie rating** - Find out whether the average runtime of a movie has any influence on the movie ratings.
 
+## Requirements
+
+To run the code and reproduce the analysis in this project, you will need the following:
+
+* **Python 3.x**
+* **Libraries**: Ensure you have the following Python libraries installed. You can install them using pip:
+    ```bash
+    pip install pandas
+    pip install numpy
+    pip install matplotlib
+    pip install seaborn
+    pip install scikit-learn
+    pip install scipy
+    ```
+* **Data Files**: The project relies on the data files mentioned in the "Data Sources" section. These files should be located in the appropriate directory relative to the analysis scripts.
+
 # 1. Data Understanding
 In this notebook, we explore multiple movie-related datasets to understand their structure and prepare them for further analysis. This includes data from **TMDb**, **The Numbers**, **Box Office Mojo**, and **Rotten Tomatoes**.
 
