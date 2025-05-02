@@ -116,10 +116,13 @@ Since we had loaded the datast before we get into it to view the tables. Here we
 - **Visualizations:** Scatter and regression plots confirmed positive correlations between budget and gross revenue, more specifically domestically and worldwide.
 - **Merged Dataset Value:** Combining attributes of (TMDb, RT) with financials (The Numbers) enriched analysis.
 
-### Recommendations:
-1. 🎯 When assessing a movie's success, consider both domestic and international performance.
-2. ✅ Focus on movies with higher ROIs as this indicates that less money is spent on production budget and profits are maximized.
-3. 🔍 Consider reviewer source when analyzing ratings — some publishers are more generous than others since opinions are undisputed and depend on a publishers's point of view.
+Based on the analysis, the following recommendations are made:
+
+* **Invest in High-ROI, Lower-Budget Films**: Prioritize projects with strong creative concepts and efficient production strategies to maximize returns, even with limited budgets.
+* **Balance Budget with Revenue Expectations**: Carefully evaluate a film's potential revenue in relation to its budget, and avoid relying solely on high budgets to guarantee success.
+* **Prioritize Film Quality and Marketing**: Focus on developing high-quality films with compelling stories and strong production values, and invest in effective marketing to reach the target audience.
+* **Conduct Further Genre Analysis**: Perform an in-depth analysis of genre-specific data to identify the most profitable genres and inform production decisions.
+* **Monitor Publisher Influence on Reviews**: Be aware of potential differences in rating tendencies among different publishers to better interpret reviews and gauge overall critical reception.
 
 # 6. Limitations
 1. Combining attributes from differnt datasets leads to the loss of some several rows of data that could have had an impact on the study.
