@@ -56,9 +56,11 @@ This repository is organized to facilitate easy access to project files and reso
 * **README.md:** This file provides a comprehensive overview of the aviation accident analysis project.
 # Project Overview
 
-With the company’s strategic decision to enter the movie industry through the establishment of its own movie studio, our team has been assigned to conduct a data-driven exploration of the current film market. Using the datasets provided, we aim to analyze recent trends in the film industry to identify which types of films are performing best across various key performance indicators such as box office revenue, audience ratings, genre popularity, and critical acclaim.
+# Project Overview
 
-The insights derived from this analysis will guide the decision-making process for the new studio, helping determine the best types of films to produce in order to maximize return on investment and market success. Ultimately, we aim to make strategic recommendations from these insights...
+With Sinema's strategic decision to enter the movie industry through the establishment of its own movie studio, our team has been assigned to conduct a data-driven exploration of the current film market. Using the datasets provided, we aim to analyze recent trends in the film industry to identify which types of films are performing best across various key performance indicators such as box office revenue, audience ratings, genre popularity, and critical acclaim.
+
+The insights derived from this analysis will guide Sinema's decision-making process for the new studio, helping determine the best types of films to produce in order to maximize return on investment and market success. Ultimately, we aim to make strategic recommendations from these insights.
 
 # Business Understanding
 
