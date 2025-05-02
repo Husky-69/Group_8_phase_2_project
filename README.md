@@ -1,5 +1,59 @@
 # Group_8_phase_2_project
 
+##   Requirements
+
+To reproduce the analysis in this project, you will need the following software and Python libraries:
+
+**Software:**
+
+* **Python 3.x:** It is recommended to use Python 3.6 or later.
+
+**Python Libraries:**
+
+You can install these libraries using pip.
+
+* **pandas:** For data manipulation and analysis.
+* **matplotlib:** For creating visualizations.
+* **seaborn:** For enhanced data visualizations (if used).
+* **numpy:** For numerical computations (if used).
+
+**Installation Instructions:**
+
+1.  Ensure you have Python 3.x installed on your system. You can check your Python version by opening a terminal and running:
+
+    ```bash
+    python --version
+    ```
+
+2.  You can install the required Python libraries using pip. It's highly recommended to create a virtual environment to manage your project dependencies.
+
+    * **Create a virtual environment (optional but recommended):**
+
+        ```bash
+        python -m venv .venv  # Create a virtual environment named '.venv'
+        source .venv/bin/activate  # On Linux/macOS
+        .venv\Scripts\activate  # On Windows
+        ```
+
+    * **Install the libraries:**
+
+        ```bash
+        pip install pandas matplotlib seaborn numpy  # Install all at once
+        #OR
+        pip install pandas
+        pip install numpy
+        pip install matplotlib
+        pip install seaborn
+        pip install scikit-learn
+        pip install scipy
+        ```
+
+This repository is organized to facilitate easy access to project files and resources. Below is a guide to help you navigate its contents:
+
+* **Dataset/:** This directory contains the data used in the analysis. 
+* **Notebooks/:** This directory contains the Jupyter Notebooks used for data exploration, preparation, analysis, and visualization.
+* **.gitignore:** This file specifies any files or directories that should not be tracked by Git.
+* **README.md:** This file provides a comprehensive overview of the aviation accident analysis project.
 # Project Overview
 
 With the company’s strategic decision to enter the movie industry through the establishment of its own movie studio, our team has been assigned to conduct a data-driven exploration of the current film market. Using the datasets provided, we aim to analyze recent trends in the film industry to identify which types of films are performing best across various key performance indicators such as box office revenue, audience ratings, genre popularity, and critical acclaim.
@@ -22,22 +76,6 @@ The main objectives for the study are:
 3.**Find blockbuster movies globally** - We aim to find movies that performed exceptionally not only domestically but also worldwide using the worldwide_gross data
 
 4.**Investigate the runtime vs movie rating** - Find out whether the average runtime of a movie has any influence on the movie ratings.
-
-## Requirements
-
-To run the code and reproduce the analysis in this project, you will need the following:
-
-* **Python 3.x**
-* **Libraries**: Ensure you have the following Python libraries installed. You can install them using pip:
-    ```bash
-    pip install pandas
-    pip install numpy
-    pip install matplotlib
-    pip install seaborn
-    pip install scikit-learn
-    pip install scipy
-    ```
-* **Data Files**: The project relies on the data files mentioned in the "Data Sources" section. These files should be located in the appropriate directory relative to the analysis scripts.
 
 # 1. Data Understanding
 In this notebook, we explore multiple movie-related datasets to understand their structure and prepare them for further analysis. This includes data from **TMDb**, **The Numbers**, **Box Office Mojo**, and **Rotten Tomatoes**.
