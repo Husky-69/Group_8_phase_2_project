@@ -53,7 +53,7 @@ This repository is organized to facilitate easy access to project files and reso
 * **Dataset/:** This directory contains the data used in the analysis. 
 * **Notebooks/:** This directory contains the Jupyter Notebooks used for data exploration, preparation, analysis, and visualization.
 * **.gitignore:** This file specifies any files or directories that should not be tracked by Git.
-* **README.md:** This file provides a comprehensive overview of the aviation accident analysis project.
+* **README.md:** This file provides a comprehensive overview of the Sinema movie analysis project.
 # Project Overview
 
 # Project Overview
